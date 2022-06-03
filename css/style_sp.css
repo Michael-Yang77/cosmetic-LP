@@ -1,0 +1,1167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width: 768px) {
+/* CSS Document */
+
+html,
+body {
+    font-family: 'Kozuka Gothic Pr6N';
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    color: black;
+    max-width: 768px;
+}
+h1, h2, h3, h4, h5, h6, p, span, label, a{
+    margin: 0;
+    font-weight: normal;
+}
+h1{
+    font-size: 97px;
+}
+p{
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.pc {
+    display: none;
+}
+.sp {
+    display: block;
+}
+
+/* header */
+
+.header {
+    top: 0%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+.header .header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10% 0 5%;
+}
+
+
+/* header */
+header{
+    padding: 1%;
+    background-color: white;
+}
+.header{
+    background-color: transparent;
+}
+.logo{
+    display: block;
+    width: 50%;
+    align-items: center;
+}
+.logo a img {
+    width: 29vw;
+}
+.register a{
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    background-color: #ff5a5f;
+    padding: 3% 15%;
+    border-radius: 50px;
+    width: 33vw;
+    align-items: center;
+    box-shadow: 0px 5px 10px 5px lightgrey;
+}
+.register p:first-child{
+    font-size: 3vw;
+}
+.register p:last-child{
+    font-size: 6vw;
+    margin-top: -5%;
+    margin-right: -8%;
+    margin-left: 10%;
+}
+
+/* top banner */
+.top-banner{
+    background: url(../img/top_bk.png) center no-repeat;
+    background-size: cover;
+    padding: 20% 5% 10%;
+}
+.banner-text{
+    background-color: white; 
+    position: relative; 
+}
+.banner-text h3{
+    color: white;
+    font-size: 6vw;
+    background-color: #ff5a5f;
+    padding: 3% 5%;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    width: fit-content;
+    top: -7%;
+    margin-right: auto;
+    font-weight: normal;
+}
+.banner-text img{
+    position: relative;
+}
+.banner-text h6{
+    font-size: 3vw;
+    color: #ff6a5f;
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 15%;
+    font-weight: normal;
+}
+.top-description-first{
+    font-size: 3vw;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 17.5%;
+}
+.top-description-second{
+    font-size: 3vw;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 22%;
+}
+.top-description-second span{
+    color: #ff6a5f;
+    background-color: #ffeded;
+}
+.btn-register{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 85%;
+    background-color: #ff5a5f;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    border: none;
+    border-radius: 10vw;
+    width: 87%;
+    padding: 4% 0;
+    box-shadow: 0px 5px 10px 5px lightgrey;
+}
+.btn-register a{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.btn-register p:first-child{
+    font-size: 5vw;
+    margin-left: 10%;
+}
+.btn-register p:last-child{
+    font-size: 8vw;
+    margin-top: -3%;
+    margin-left: 0%;
+}
+
+/* lineup section */
+.lineup{
+    padding: 7% 3% 3%;
+    background-color: #fdecef;
+    text-align: center;
+}
+.lineup-title h6{
+    font-size: 4vw;
+    font-weight: normal;
+}
+.lineup-title img{
+    width: 70%;
+}
+.lineup-title p{
+    font-size: 3vw;
+    padding: 0% 4%;
+    border: 3px solid black;
+    width: 36vw;
+    margin: 0 auto;ck;
+}
+.lineup-number{
+    background: url(../img/dec.png) center no-repeat;
+    background-size: contain;
+    display: flex;
+    padding: 7%;
+    justify-content: space-evenly;
+    margin: 5% 5% 0;
+    align-items: baseline;
+}
+.lineup-number h5{
+    font-size: 5vw;
+    font-weight: normal;
+}
+.lineup-number h1{
+    color: #fe5358;
+    font-size: 10vw;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+.lineup-description{
+    font-size: 2.2vw;
+    text-align: right;
+}
+.lineup{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.perfume-intro{
+    overflow: auto;
+    background-color: white;
+    margin-top: 5%;
+    padding: 1%;
+    white-space: nowrap;
+}
+.perfume-box{
+    margin: 2% 1% 2% 2%;
+    display: inline-grid;
+}
+.perfume-box img{
+    width: 19vw;
+}
+.perfume-box p{
+    background: #f1f1f1;
+    padding: 2% 4%;
+    font-size: 2vw;
+}
+
+/* purchase section */
+.purchase{
+    margin-top: 10%;
+}
+.purchase-register{
+    background-color: white;
+    padding: 10% 5% 15%;
+    position: relative;
+}
+.purchase-register .btn-register{
+    top: 20%;
+}
+
+/* instagram section */
+.instagram{
+    background-color: #f79ea1;
+    padding: 10% 5% 0;
+}
+.instagram-title{
+    color: white;
+    text-align: center;
+}
+.instagram-title h2 span{
+    color: #f79ea1;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9vw;
+    font-weight: 800;
+    margin-right: 1%;
+}
+.instagram-title h2{
+    font-weight: 500;
+    font-size: 6vw;
+}
+.instagram-title h3{
+    font-size: 4vw;
+    font-weight: 400;
+}
+.instagram img{
+    margin-bottom: -4px;
+}
+
+/* experience section */
+.experience{
+    background-color: #fde6e8;
+    padding: 10% 0 0;
+    text-align: center;
+}
+.experience-title{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1% 1%;
+}
+.experience-content{
+    padding: 5% 0 0;
+}
+.friend{
+    background: url(../img/friend.png) no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 61%;
+    position: relative;
+    height: 70vw;
+}
+.friend-first{
+    background-color: white;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    font-size: 2vw;
+    width: 48%;
+    text-align: left;
+    right: -57%;
+    top: 9%;
+}
+.friend-second{
+    background-color: white;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    font-size: 2.2vw;
+    width: 66%;
+    text-align: left;
+    right: -54%;
+    top: 39%;
+}
+.friend-third{
+    background-color: white;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    font-size: 2.2vw;
+    width: 60%;
+    text-align: left;
+    right: -56%;
+    top: 64%;
+}
+.date{
+    background: url(../img/date.png) no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 59%;
+    position: relative;
+    height: 70vw;
+    margin: 7% 41%;
+}
+.date-first{
+    background-color: white;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    font-size: 2.2vw;
+    width: 54%;
+    text-align: left;
+    top: 20%;
+    left: -60%;
+}
+.date-second{
+    background-color: white;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    font-size: 2.2vw;
+    width: 60%;
+    text-align: left;
+    left: -52%;
+    top: 45%;
+}
+.date-third{
+    background-color: white;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    font-size: 2.2vw;
+    width: 62%;
+    text-align: left;
+    left: -60%;
+    top: 75%;
+}
+.watashi{
+    position: relative;
+    padding: 5% 0 0;
+}
+.watashi-first{
+    position: absolute;
+    word-break: break-all;
+    line-height: 1;
+    text-align: center;
+    font-size: 4vw;
+    background-color: white;
+    padding: 1%;
+    width: 4vw;
+    top: 0;
+    right: 10%;
+}
+.watashi-second{
+    position: absolute;
+    word-break: break-all;
+    line-height: 1;
+    text-align: center;
+    font-size: 4vw;
+    background-color: white;
+    padding: 1%;
+    width: 4vw;
+    top: 5%;
+    right: 18%;
+}
+.star{
+    position: absolute;
+    right: 37%;
+    width: 10%;
+    top: 13%;
+}
+
+/* top-perfume section */
+.top-perfume{
+    padding: 10% 3% 0;
+    background-color: #fdeff2;
+    text-align: center;
+}
+.top-perfume-title p{
+    font-size: 4vw;
+    margin-bottom: 3%;
+}
+.top-perfume-title img{
+    width: 95%;
+}
+.top-slide{
+    padding: 3% 5% 4%;
+}
+.top-slide-box{
+    /*padding: 10vw 5vw 0 5vw;*/
+    /*margin: 6vw 4vw 0;*/
+    display: flex;
+    position: relative;
+    border-radius: 4vw;
+}
+.top-slide-box img{
+    margin-right: 3%;
+}
+
+.review{
+    display: flex;
+}
+.review h6 span{
+    color: #ff5a5f;
+    font-size: 3.5vw;
+    margin-right: 2%;
+}
+.review h6{
+    font-size: 2.8vw;
+    width: -webkit-fill-available;
+    margin: 0% 0 2% 0;
+}
+.review-content{
+    font-size: 2.3vw;
+}
+
+/* problem section */
+.problem{
+    padding: 10% 5%;
+    background-color: white;
+}
+.problem-list{
+    background-color: #f79ea1;
+    border-radius: 5vw;
+    position: relative;
+    padding: 0 1% 1%;
+}
+.think{
+    position: absolute;
+    width: 33%;
+    top: -6.7vw;
+    left: 8vw;
+}
+.problem-list h3{
+    color: white;
+    font-size: 4vw;
+    width: 60%;
+    margin-left: 45%;
+    padding: 5%;
+}
+.problem-list h3 span{
+    color: #f79ea1;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+}
+.problem-content{
+    background-color: white;
+    border-bottom-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+    padding: 10% 10%;
+}
+.problem-content-line{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5%;
+}
+.problem-content-line img{
+    width: 7%;
+    margin-right: 5%;
+}
+.problem-content-line p{
+    font-size: 3.5vw;
+}
+.problem-content-line p span{
+    color: #ff5b5e;
+    background-color: #fde2e3;
+}
+.dot-arrow{
+    position: relative;
+    text-align: center;
+    font-size: 7vw;
+}
+.arrow{
+    width: 5vw;
+    top: -11vw;
+    right: 0;
+    position: absolute;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dot-arrow h5{
+    font-size: 6vw;
+    margin: 8% 0 20%;
+}
+.problem-list h5{
+    font-size: 5vw;
+    color: #333;
+}
+.problem h6{
+    font-size: 5vw;
+    text-align: center;
+}
+.problem h6 span{
+    color: #ff5b5e;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+}
+.problem img{
+    margin-bottom: 5%;
+}
+.get{
+    background-color: #f8bcbe;
+    padding: 3%;
+}
+.get-inner{
+    background-color: #f0787d;
+    color: white;
+    text-align: center;
+}
+.get-inner-caption{
+    border-bottom: 1vw dotted white;
+    padding: 5% 5% 2%;
+    margin: 0px 10%;
+}
+.get-inner-caption p{
+    font-size: 3vw;
+}
+.get-inner-caption h6{
+    font-size: 4.5vw;
+}
+.get-inner-content{
+    padding: 5% 10%;
+    display: flex;
+    align-items: flex-start;
+}
+.tax{
+    width: 60%;
+    margin-right: 5%;
+    margin-bottom: 0;
+}
+.get-inner-box{
+    border: 0.5vw solid white;
+    padding: 1% 5%;
+}
+.get-inner-content h4{
+    font-size: 4.5vw;
+}
+.get-inner-content h3{
+    font-size: 6vw;
+    margin-left: 12%;
+    margin-top: -10%;
+}
+
+/* case section */
+.case{
+    background: url(../img/marble.png) center no-repeat;
+    background-size: cover;
+    padding: 5% 0;
+}
+.case-title{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.case-title h6{
+    font-size: 4vw;
+}
+.case-title img{
+    width: 85%;
+    margin: 3% 0;
+}
+.case-title p{
+    font-size: 2vw;
+}
+.case-content{
+    position: relative;
+    padding: 0 2%;
+    text-align: center;
+}
+.case-content p{
+    text-align: right;
+    font-size: 2vw;
+    margin-right: 12%;
+}
+.case-gift{
+    width: 60%;
+}
+.case-img{
+    position: absolute;
+    width: 30%;
+    right: 6%;
+    top: 5%;
+}
+.case-first{
+    background-color: white;
+    padding: 2% 4%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    position: absolute;
+    font-size: 3.5vw;
+    width: 29vw;
+    text-align: left;
+    top: 20%;
+    left: 3%;
+}
+.case-second{
+    background-color: white;
+    padding: 2% 4%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    position: absolute;
+    font-size: 3.5vw;
+    width: 38vw;
+    text-align: left;
+    top: 54%;
+    left: 52%;
+}
+.case-third{
+    background-color: white;
+    padding: 2% 4%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    position: absolute;
+    font-size: 3.5vw;
+    width: 40vw;
+    text-align: center;
+    top: 73%;
+    left: 3%;
+}
+
+/* diagnose section */
+.diagnose{
+    padding: 10% 4%;
+    background-color: #f79ea1;
+}
+.diagnose-title{
+    text-align: center;
+    position: relative;
+}
+.diagnose-title p{
+    color: white;
+    font-size: 4vw;
+}
+.diagnose-box{
+    background: url(../img/diagnose.png) center no-repeat;
+    background-size: cover;
+    margin-top: 3%;
+    position: relative;
+}
+.diagnose-box p{
+    font-size: 5vw;
+    padding: 6% 0 19%;
+    margin-bottom: 5%;
+    color: black;
+}
+.dot-line-first{
+    position: relative;
+}
+.dot-line-first img{
+    position: absolute;
+    width: 0.5vw;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    top: -7vw;
+}
+.diagnose-content{
+    padding: 5% 3% 10%;
+    background-color: white;
+    text-align: center;
+}
+.diagnose-content p{
+    font-size: 3.5vw;
+    margin: 5% 0;
+}
+.ingredient{
+    width: 113%;
+    margin: 0 -7% 5% -8%;
+}
+.diagnose-content h5{
+    font-size: 4vw;
+}
+.diagnose-content h5 span{
+    font-size: 4.5vw;
+    color: #ff5a5f;
+    background-color: #fde6e7;
+    padding: 1%;
+}
+.fit{
+    width: 80%;
+    margin: 5% 0;
+}
+.diagnose-content h4{
+    font-size: 4vw;
+    background: url(../img/quote.png) center no-repeat;
+    background-size: contain;
+    margin: 5% 8%;
+}
+.find{
+    background-color: #ff5a5f;
+    padding: 4% 8%;
+    border-radius: 8vw;
+    box-shadow: 0px 5px 10px 5px lightgrey;
+    border: none;
+}
+.find a{
+    display: flex;
+    color: white;
+    font-size: 4vw;
+    justify-content: center;
+    align-items: baseline;
+}
+.find a span{
+    font-size: 6vw;
+    margin-bottom: 2%;
+}
+.dot-line-second{
+    position: relative;
+}
+.dot-line-second img{
+    position: absolute;
+    width: 0.5vw;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    top: -2vw;
+}
+.pickup{
+    background: url(../img/pickup.png) center no-repeat;
+    background-size: cover;
+    padding: 6% 8%;
+    margin-top: 6%;
+}
+.pickup h6{
+    font-size: 3.5vw;
+}
+.break{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5vw;
+    padding: 1% 6%;
+    width: fit-content;
+}
+.num1{
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+.num2{
+    display: 2vw;
+    font-weight: bold;
+}
+.refer{
+    font-size: 2vw!important;
+    color: black;
+}
+.line{
+    width: 63%;
+}
+.pickup h5{
+    color: #696666;
+    font-size: 4vw;
+    margin: 2% 0;
+}
+.fit-content{
+    width: 70%;
+    font-size: 2.8vw;
+    margin: 2% 0;
+    color: #403c3c;
+}
+
+/* satisfy section */
+.satisfy{
+    padding: 10% 0;
+    background-color: white;
+    text-align: center;
+}
+.satisfy-title{
+    width: 87%;
+}
+
+/* flow section */
+.flow{
+    padding: 10% 8%;
+    background-color: white;
+    text-align: center;
+}
+.flow-title{
+    width: 50%;
+}
+.flow h6{
+    font-size: 3.8vw;
+    margin: 5% 0;
+}
+.flow h6 span{
+    font-size: 7vw;
+}
+.flow-box-first{
+    border-radius: 2vw;
+}
+.flow-box-first img{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0;
+}
+.flow-content{
+    position: relative;
+}
+.flow-box-first h2{
+    font-size: 11vw;
+    color: #ccae75;
+    position: absolute;
+    top: -51vw;
+    left: 8%;
+    opacity: 0.6;
+}
+.flow1-first{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    padding: 1% 3%;
+    font-size: 3vw;
+    position: absolute;
+    top: -18vw;
+    left: 9vw;
+}
+.flow1-second{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    font-size: 3vw;
+    position: absolute;
+    top: -10vw;
+    padding: 1% 1%;
+    left: 9vw;
+}
+.flow-box-second{
+    border-radius: 2vw;
+}
+.flow-box-second img{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0;
+}
+.flow-box-second h2{
+    font-size: 11vw;
+    color: #989fbf;
+    position: absolute;
+    top: -51vw;
+    left: 8vw;
+    opacity: 0.6;
+}
+.flow2-first, .flow3-first{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    padding: 1% 3%;
+    font-size: 3vw;
+    position: absolute;
+    top: -26vw;
+    left: 9vw;
+}
+.flow2-second, .flow3-second{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    font-size: 3vw;
+    position: absolute;
+    top: -18vw;
+    padding: 1% 1%;
+    left: 9vw;
+}
+.flow2-third,.flow3-third{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    background-color: white;
+    font-size: 3vw;
+    position: absolute;
+    top: -10vw;
+    padding: 1% 1%;
+    left: 9vw;
+}
+.flow-box-third{
+    border-radius: 2vw;
+}
+.flow-box-third img{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0;
+}
+.flow-box-third h2{
+    font-size: 11vw;
+    color: #cdaaba;
+    position: absolute;
+    top: -51vw;
+    left: 8vw;
+    opacity: 0.6;
+}
+
+/* possible section */
+.possible{
+    background-color: rgb(241, 132, 138);
+    padding: 5% 2%;
+}
+.possible-title{
+    margin: 5% 0;
+    text-align: center;
+    color: white;
+}
+.possible-title p{
+    font-size: 4vw;
+}
+.possible-title h2{
+    font-size: 10vw;
+    font-weight: bold;
+}
+.possible-content{
+    background-color: white;
+    padding: 6% 10% 10%;
+}
+.possible-line{
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+}
+.possible-line img{
+    width: 6%;
+    height: 6%;
+    margin-right: 3%;
+}
+.possible-line p{
+    font-size: 4vw;
+}
+.divide{
+    margin: 5% 0;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-content{
+    margin-right: 3%;
+}
+.price-content p{
+    font-size: 3.7vw;
+}
+.price-content p span{
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 6vw;
+    font-weight: bold;f;
+}
+
+/* regular section */
+.regular{
+    background-color: #fff8f9;
+    padding: 10% 2%;
+    text-align: center;
+}
+.regular-title img{
+    width: 83%;
+    margin-bottom: 5%;
+}
+.regular-title p{
+    font-size: 4vw;
+}
+.regular-title p span{
+    color: #ff5a5e;
+    font-size: 5vw;
+}
+.regular-content{
+    background: url(../img/choose.png) center no-repeat;
+    background-size: contain;
+    display: flex;
+    margin: 10% 0 5%;
+    padding: 20% 0% 0%;
+}
+.regular-content p{
+    font-size: 3vw;
+    margin: 2% 5% 2% 10%;
+}
+.regular-content p:last-child{
+    margin-left: 6%;
+}
+
+/* faq section */
+.faq{
+    background-color: white;
+    padding: 10% 3% 0;
+}
+.faq-title{
+    text-align: center;
+}
+.faq img{
+    width: 50%;
+}
+.faq-box{
+    margin: 1px;
+}
+.ques{
+    background-color: #f1848a;
+    padding: 3% 3% 3% 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ques h3{
+    font-size: 7vw;
+    width: 10%;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ques h6{
+    font-size: 3vw;
+    width: 80%;
+}
+.ques h4{
+    font-size: 6vw;
+    width: 0%;
+}
+.active .ans{
+    display: flex;
+    align-items: center;
+}
+.ans{
+    background-color: #fff6f7;
+    padding: 3% 3% 3% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.ans h3{
+    font-size: 7vw;
+    color: #ff5a5f;
+    width: 10%;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.ans p{
+    font-size: 2.5vw;
+    width: 80%;
+}
+.ans-plan{
+    width: 100%!important;
+}
+
+/* footer section */
+.footer{
+    padding: 10% 20% 5%;
+}
+.footer a{
+    color: black;
+    font-size: 4vw;
+}
+.footer p{
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 10%;
+}
+
+/* floating-btn section */
+.floating{
+    opacity: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    bottom: 18vw;
+}
+.float-btn-register{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 115%;
+    background-color: #ff5a5f;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    border: none;
+    border-radius: 10vw;
+    width: 90%;
+    padding: 4% 0;
+    box-shadow: 0px 5px 10px 5px lightgrey;
+}
+.float-btn-register a{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.float-btn-register p:first-child{
+    font-size: 5vw;
+    margin-left: 25%;
+}
+.float-btn-register p:last-child{
+    font-size: 8vw;
+    margin-top: -3%;
+    margin-left: 0%;
+}
+.float-btn-register img{
+    position: absolute;
+    width: 15%;
+    top: -72%;
+    left: 11%;
+}
+.show{
+    display: block;
+}
+
+
+
+
+
+
+
+}
